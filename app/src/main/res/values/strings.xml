@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Jacksonville Tour App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location_string">Location</string>
+    <string name="list_title_string">List Title</string>
+    <string name="history_title_one">Kingsley Plantation</string>
+    <string name="history_location_one">11676 Palmetto Ave, Jacksonville, FL 32226</string>
+    <string name="history_title_two">Mandarin Museum and Historical Society</string>
+    <string name="history_title_three"><![CDATA[Beaches Museum & History Park]]></string>
+    <string name="history_title_four">The Llambias House Garden</string>
+    <string name="history_location_two">11964 Mandarin Rd, Jacksonville, FL 32223</string>
+    <string name="history_location_three">381 Beach Blvd, Jacksonville Beach, FL 32250</string>
+    <string name="history_location_four">31 St Francis St, St Augustine, FL 32084</string>
+    <string name="fun_title_one">MOSH</string>
+    <string name="fun_title_two"><![CDATA[Autobahn Indoor Speedway & Events]]></string>
+    <string name="fun_title_three">Treaty Oak Park</string>
+    <string name="fun_title_four"><![CDATA[Cummer Museum of Art & Gardens]]></string>
+    <string name="fun_event_one">SING OUT LOUD FESTIVAL</string>
+    <string name="fun_event_two"><![CDATA[READ A BOOK DAY 5K & 10K]]></string>
+    <string name="fun_event_three">Jacksonville Music Festival</string>
+    <string name="fun_event_four">Melanin Fest 2018: Jax Edition</string>
+    <string name="fun_location_one">The St. Augustine Amphitheatre</string>
+    <string name="fun_location_two">32203, Jacksonville, FL</string>
+    <string name="fun_location_three">300 A Philip Randolph Blvd, Jacksonville, FL</string>
+    <string name="fun_location_four">40 E Adams St, Jacksonville, FL</string>
+    <string name="eating_title_one">Sake House</string>
+    <string name="eating_title_two">B.B. European Grocery Store Supermarket</string>
+    <string name="eating_title_three">New York Pizza Orange Park</string>
+    <string name="eating_title_four">The Juicy Crab - Westside</string>
+    <string name="eating_location_one">1478 Riverplace Blvd #1, Jacksonville, FL 32207</string>
+    <string name="eating_location_two">8083 Old Kings Rd S, Jacksonville, FL 32217</string>
+    <string name="eating_location_three">179 College Dr, Orange Park, FL 32065</string>
+    <string name="eating_location_four">8106 Blanding Blvd, Jacksonville, FL 32244</string>
+</resources>
