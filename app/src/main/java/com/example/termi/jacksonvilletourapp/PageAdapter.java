@@ -4,11 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.termi.jacksonvilletourapp.EatingFragment;
-import com.example.termi.jacksonvilletourapp.EventFragment;
-import com.example.termi.jacksonvilletourapp.FunFragment;
-import com.example.termi.jacksonvilletourapp.HistoryFragment;
-
 public class PageAdapter extends FragmentPagerAdapter {
 
     private int numOfTabs;

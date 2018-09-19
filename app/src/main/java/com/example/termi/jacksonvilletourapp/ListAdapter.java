@@ -31,16 +31,13 @@ public class ListAdapter extends ArrayAdapter<ListItem> {
         // Get the {@link Word} object located at this position in the list
         ListItem currentPosition = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
         TextView titleTextView = listItemView.findViewById(R.id.listTitle);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
+
         titleTextView.setText(currentPosition.getListTitle());
 
         // Find the TextView in the list_item.xml layout with the ID default_text_view.
         TextView locationTextView = listItemView.findViewById(R.id.location);
-        // Get the default translation from the currentWord object and set this text on
-        // the default TextView.
+
         locationTextView.setText(currentPosition.getListLocation());
 
 
