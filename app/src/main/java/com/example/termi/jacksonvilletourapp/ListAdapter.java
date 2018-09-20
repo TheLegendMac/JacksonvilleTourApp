@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -12,11 +13,12 @@ import java.util.ArrayList;
 public class ListAdapter extends ArrayAdapter<ListItem> {
     /**
      * Create a new {@link ListAdapter} object.
-     *  @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param listItems   is the list of  to be displayed.
+     *
+     * @param context   is the current context (i.e. Activity) that the adapter is being created in.
+     * @param listItems is the list of  to be displayed.
      */
     public ListAdapter(Context context, ArrayList<ListItem> listItems) {
-        super(context, 0,listItems);
+        super(context, 0, listItems);
     }
 
     @Override
@@ -30,6 +32,14 @@ public class ListAdapter extends ArrayAdapter<ListItem> {
 
         // Get the {@link Word} object located at this position in the list
         ListItem currentPosition = getItem(position);
+
+        ImageView listImage = listItemView.findViewById(R.id.listImage);
+
+        // Check if an image is provided for listitem or not
+        currentPosition.getListImage();
+        // If an image is available, display the provided image based on the resource ID
+        listImage.setImageResource(currentPosition.getListImage());
+
 
         TextView titleTextView = listItemView.findViewById(R.id.listTitle);
 

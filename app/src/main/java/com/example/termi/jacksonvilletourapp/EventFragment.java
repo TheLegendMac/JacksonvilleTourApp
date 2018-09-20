@@ -29,10 +29,10 @@ public class EventFragment extends Fragment {
 
 
         final ArrayList<ListItem> listItems = new ArrayList<>();
-        listItems.add(new ListItem(getString(R.string.fun_event_one), getString(R.string.fun_location_one)));
-        listItems.add(new ListItem(getString(R.string.fun_event_two), getString(R.string.fun_location_two)));
-        listItems.add(new ListItem(getString(R.string.fun_event_three), getString(R.string.fun_location_three)));
-        listItems.add(new ListItem(getString(R.string.fun_event_four), getString(R.string.fun_location_four)));
+        listItems.add(new ListItem(getString(R.string.fun_event_one), getString(R.string.fun_location_one),R.drawable.musical));
+        listItems.add(new ListItem(getString(R.string.fun_event_two), getString(R.string.fun_location_two),R.drawable.festival));
+        listItems.add(new ListItem(getString(R.string.fun_event_three), getString(R.string.fun_location_three),R.drawable.fest));
+        listItems.add(new ListItem(getString(R.string.fun_event_four), getString(R.string.fun_location_four),R.drawable.singalong));
 
         ListAdapter adapter = new ListAdapter(getActivity(), listItems);
 
