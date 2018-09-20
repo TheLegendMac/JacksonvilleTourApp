@@ -37,4 +37,5 @@
     <string name="funString">Fun</string>
     <string name="eatingString">Eating</string>
     <string name="historyString">History</string>
+    <string name="welcomeString">The Jax Guide</string>
 </resources>

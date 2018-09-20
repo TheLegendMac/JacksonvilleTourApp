@@ -24,7 +24,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="The Jax Guide"
+        app:title="@string/welcomeString"
         app:titleTextColor="@android:color/black"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         app:tabSelectedTextColor="@android:color/black"
-        app:tabTextColor="#5f6368">
+        app:tabTextColor="@color/tabTextColor">
 
 
         <android.support.design.widget.TabItem
