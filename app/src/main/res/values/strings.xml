@@ -33,4 +33,8 @@
     <string name="eating_location_two">8083 Old Kings Rd S, Jacksonville, FL 32217</string>
     <string name="eating_location_three">179 College Dr, Orange Park, FL 32065</string>
     <string name="eating_location_four">8106 Blanding Blvd, Jacksonville, FL 32244</string>
+    <string name="eventsString">Events</string>
+    <string name="funString">Fun</string>
+    <string name="eatingString">Eating</string>
+    <string name="historyString">History</string>
 </resources>
